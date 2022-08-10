@@ -2,6 +2,7 @@
 //D = Diaminds
 //S = Spades
 //H = Hearths
+//Actualizado
 
 (() => {
     'use strict'
@@ -156,7 +157,7 @@
             alert('Es un empate!');
             console.warn('Tie!');
             
-        } else if (puntosPC < 21){
+        } else if (puntosPC <= 21){
             alert('Gana la computadora!');
             console.warn('Derrota...');
             
